@@ -1,0 +1,429 @@
+IN HTML EACH PAGE SHOULD HAVE ONLY ONE "h1"(and you can have sub topics)
+
+   
+        <link rel="icon " type ="image/x-icon  " href="download.png">
+	
+
+--> This is how we can add a our css file in our html file  to out website
+
+	<link rel(rel stands for relationship , means what relation has this link with our html page )="stylesheet" type ="text/css " href="main.css">
+
+
+Block Level  Elements:- When we use paragraph or we use br tag it starts a new line which makes a block that is why they are called block elements :
+
+
+In Line Level Elements:- They are some tags that can be used inside a paragraps which have some purpose but they do not create a new line : 
+    			Example:- <em></em> and <strong ></strong > tags 
+
+
+HTML Entities :-
+                There are some special character that we can not put easily in html like greater and less than symbols in our html so we use html entities in our code. They always starts with ampercent (&) 
+                Example :- 
+                       Some of the html entities that we can use in our script are 
+                       1. &nbsp; for space 
+                       2. &lt; for less than symbol
+                       3. &gt; for greater than symbol
+                       4 &copy; for copy right symbol
+                       5.<abbr> titile=" full form of abbrivation ">HEC</abbr>
+
+ Comments in HTML:- 
+    <!--   -->
+
+
+
+LISTS IN HTML:-
+   lists are very useful in html. There are 2 type lists in html 
+   1. ordered list 
+   2. unordered list 
+   Syntax:
+     <ul>
+         <li>   </li><!-- THIS STANDS FOR LIST ITEM WE CAN PUT PARAGRAPHS , BR TAGS , ABBREVATIONS AND OTHER IMPORTANT THINGS INSIDE THE LIST ITEM
+
+     </ul>	
+
+
+     -:TYES OF LISTS:-
+
+       2.Description List:-
+          Descriptive lists are used to write lists it has more than list items
+
+
+          Example :
+               Syntax;
+               <dl>
+               <dt> 
+               it is used to write topic of list
+              </d>
+              <dd> 
+              it is used to write descriptive details 
+              </dd>
+               </dl>
+
+ACHOR TAG FOR LINKS:
+   Syntax:
+     <a href="link"> name to show </a>\
+
+
+--> THE DIFFERENCE BETWEEN anchor tag and LINK is that link is used to show the files that are within our folder and achor tag is used to show the link that are not on our page. 
+
+
+
+
+SECTION :
+      Section are used to move the user to specific portion that is within the same page. This is done through id which a section contains.
+
+
+      Syntax:
+
+      <section id="anyname">
+
+      SECTION OR PART YOU WANT TO SHOW TO YOUR VIEWERS 
+      </section>
+     ---> nav command in html:-
+        <nav>
+        <!-- nav is used to show the the links that could lead the user to perticular part in the same page -->
+
+
+        --> it is always good to create a unordered list inside the nav to show you links   to the user
+        
+
+        <ul>
+        <li> <a href="# then name of id of section "> name you want to show to your viewers </li>
+        <li> <a href="# then name of id of section "> name you want to show to your viewers </li>
+        
+        
+     
+        </ul>
+        </nav>
+
+
+--> Getting Back To the top:
+     You can put following link under the web page to move the user back to the top of the same page:
+     <a href="#">Back to the Top </a>
+
+
+
+  Putting Email Address :
+    You can give your user to email you by cliking a link in following manner
+    Email Me <a href="mailto:mshahidbaloch@gmail.com">click here</a>
+
+
+   Putting Phone Number:
+     You can give you user an option to contact you through telephone number by following manner
+     Contact me <a href="tel:+92335435454">click here</a>
+
+   Putting another website in a new tab:
+     You can give your user an option by clicking a link in following manner
+      Visit our website:  <a href="www.google.com" target="_blak">click here</a>
+    
+
+    Putting Download Option for  Picture in html:
+          You can give user an option to downlaod a picture in html by following manner:
+          <a href="image path" download>click here</a>
+          User can download his or her image by clicking click here
+
+
+ 
+
+ Putting a Picture in your web page:
+     Syntax:
+      <img scr="path of the image" alt="put something that you want to show when the picture is not avaliable to show" title="put something here you want to show if someone hover over the picture" width="put width of the picture you want to set on your webpage" height="put height fo the picture" loading="loading is optional in the image, by default it's value is eager but it is recommended to put lazy in . With lazy the brower will only load the picture when it is shown to the user if the user is at top and the  image is at bottom so browser will not load the image until the user starts coming down to the bottom of the page. <!-- this makes the website fast -->/>
+Figure Elements in html:
+         You can use figure element for many works. You can also use it to close the image tag so you could put figcaption that  would give a caption under your image...
+
+
+         EXAMPLE:
+         <figure>
+         <img scr="picture.png"  alt="Picture of Dorian Gray" title="Dorean Gray is best" width="200" height="300" loading="lazy"/>
+         <figcaption > Note you want to write under you image</figcaption >
+         </figure>
+
+--> You can also use the figure element in the following  way:
+
+         EXAMPLE:
+         
+         <img scr="picture.png"  alt="Picture of Dorian Gray" title="Dorean Gray is best" width="200" height="300" loading="lazy"/>
+         <figure>
+         <!-- You can also put the figure element under you image
+         <figcaption > Note you want to write under you image</figcaption >
+        <!-- You can also put paragaraphs in your figure element -->
+        <p> <code> &nbsp;h1copy;&lt;&gt; Hello world &lt;/h1>y
+
+
+         </figure>
+
+
+
+ CODE ELEMENT IN HTML:
+
+     <code> inside code element you can put a code </code>
+
+
+
+
+     IMPORTANT NOTE  :
+      It is always good to put small size images on your website so  it could be easier for the website to load.....
+
+
+
+
+SYMENTIC  HTML Layout :
+
+      adding  semtics in our html page helps us easily seperate different parts of our web page and navigate them ..
+      symantics that  we've already  used above are headings h1,h2 and so on . and <nav> element
+      and so on. hr tag is also a semantic tag.............\
+      </nav>
+
+
+
+
+
+    NOTE: It is always good to divide the html page in header , main and footer style......
+
+
+
+   ---> There could be more than one footer and header in our html code but main should be better to be one 
+
+
+
+
+   ARTICLE ELEMENT IN HTML:- Artical and section are related elements in html but article is more appopriate if the material you want to put inside a section or article has it's own heading and topic that could be put in a seperate page so it is better to close them in a article instead of a section...
+
+        Syntax:
+          <article> material
+           there could be different types of things like paragraphs , self closing tags and other stuff inside an article just like a section 
+           </article>
+
+
+   NOTE: Inside a article you could have other articles or as well as other section inside a single article. 
+
+
+
+ ASIDE TAG:
+     Aside tag is used to put some information on our web page which is not as much important and user could more about it by clicking on it 
+      It is represented by arrow key on our website
+
+        Syntax:
+           <aside>
+           <details>
+           <summary> Put detials that you want to show to user of the website</summary>
+           <p> The details to show once the user click on the bullet point
+           </p>
+           </details>
+           </aside>
+MARK TAG IN HTML:
+  <mark> mark is used to marks the words inside </mark> 
+ 
+
+
+
+ TIME TAG IN HTML:
+   Whenever you write a time in your html should use time this will help assistive technologies to  understand your website easily:
+
+     syntax:
+        <time> datetime="5:00" </time>
+
+
+
+
+  NOTE: 
+   <div> and <span> are non sematic tags it means they don't give perticular meaning to your code they just are used to divide your code so it's better to use them when you think you cant use other semantic tag like article and section          
+
+    
+
+
+  TABLES IN HTML:
+
+     table are very important they are used to show a data in tabular form 
+     Syntax:
+
+     <table>
+     <tr>
+     <th>
+    th stands for table heading. It is used to put heading above the table you want to create
+     </th>
+     <tr>
+     <td>
+     Table data is used to put the data inside the table for each  new row we have to make a new tr element to order to put seperate data.
+     </td>
+     </tr>
+     </tr>
+     </table>   
+
+
+   COLSAPN  in table:
+   While putting data inside a table using <td>(table data element ) element we can use colspan inside <td> </td>
+
+
+
+    Syntax:
+      <td colspan="2"> It would put the space of 2 coloms of the table and put the data  inside of it </td>
+
+
+
+
+==>   ROWSPAN  in table:
+      While putting data inside a table using <td>(table data element ) element we can use rowspan inside <td> </td>
+
+
+ 
+     Syntax:
+       <td rowspan="2"> It would put the space of 2 rows of the table and put the data  inside of it </td>
+
+
+
+
+
+TABLE CAPTION IN HTML:
+      
+       You can put a caption above your table. it is better to show a caption which could tell the user what the table is about it is just like the heading of the table....
+       
+
+
+       <table>
+         <caption>GOLD MEDALIST OF UNIVERSITY STUDENTS:</caption>
+       <thead>
+       it contain rows or columns which you want to put in the headig section of your web page
+       </thead>
+       <tbody>
+       </tbody>
+       <tfoot>
+       </tfoot>
+       </body>
+       </table>
+
+   TABLE HEAD , TABLE BODY AND TABLE FOOTER >>>>
+
+
+        It is better to close the table into head body and footer.
+        the caption of the table comes before the head and followed by head body and footer 
+
+
+     Table Footer: 
+
+     Table footer are important part of the table .. here you can put and ending sentense. 
+
+       If you are making a table for the total of sum product so it would always be good to put the total sum in footer section . It would be good prectice in html    
+
+
+
+    SCOPE  OF TABLE HEAD:
+
+          It is always good to use a scope for every heading you put in your table scope value could be "col" or "row" in html
+
+
+
+     Syntax:
+        <th scope="col">
+        </th>
+
+
+
+
+
+                                ::::FORMS AND INPUTS IN HTML:::::
+
+ Form:
+   In order to write a form we must put it's element and do what so ever we have to put inside it.
+
+   <form>
+
+
+   </form>
+
+
+
+
+label:
+   Label is needed whenever we want to put a form element
+    Syntax:
+
+
+
+   <form>
+   <label for="Name">Enter Your Name:<label>
+
+   </form>
+
+
+
+Input:
+  Input is used to take input from the user write it can contain many tags:
+
+   
+
+
+   Syntax:
+   
+
+Taking Name Using forms:
+      
+         	<p>
+	  	<label for="FirstName">Enter Your First Name:</label>
+	  	<input type="text" name="FirstName" id="FirstName" placeholder="First Name" autofocus="false" autocomplete="true" >
+
+
+
+
+Taking Phone Number Using Forms:
+  
+     <p>
+      	<label for ="phone">Enter Your Phone Number:</label>
+	 <input type="tel" name="phone" id="phone" placeholder="03XX-XXXXXXX" required="true" autocomplete="on" autofocus pattern="[0-9]{4}[0-9]{7}">
+	  	</p>
+
+
+Taking Date of Birth In Shape of Table:
+
+
+     	<p>
+	  <label for ="birth">Enter date of birth:</label>
+	  <input type="number" name="bith" id="phone" required="true" autocomplete="on" min="2003" max="2012"  value="2003" step="1">
+	  	</p>
+
+
+
+
+
+
+
+Taking Input Showing a Table oF elements:
+
+
+    	  			<p>
+	 <!-- this can chosse multiple options -->
+	 <label for="favColor">Select Your Favorite Color</label>
+	 <select name ="favColor" id="favColor" multiple  size="5">
+ 	 <optgroup label ="Recommended">
+	 <option value="pink"> Pink</option>
+	 <option value="greeen" selected="green"> Green</option>
+	 <option value="orange"> Orange</option>
+	 <option value="purple"> Purple</option>
+	 </optgroup>
+	 <optgroup label="Others">
+	 <option value="cascade"> Cascade</option>
+	 <option value="venilla"> Venilla</option>
+	 <option value="blue"> Blue</option>
+	 <option value="black"> Black</option>
+	 </optgroup>
+	  </select>
+
+
+
+ FIELD SET::
+ 
+     Sometimes our form gets much larger so we put field set and put legends inside it....
+
+
+Legends:::
+      Legends are used to seperate different portions of forms input
+
+
+
+
+             
+
+             
+
+
+
